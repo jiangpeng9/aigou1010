@@ -7,7 +7,7 @@ server:
   port: 8001
 spring:
   application:
-    name: PLAT-SERVER-DEV
+    name: PLAT-PROVIDER
   profiles: dev #开发环境
 eureka:
   client:
@@ -18,7 +18,7 @@ server:
   port: 8002
 spring:
   application:
-    name: PLAT-SERVER-TEST
+    name: PLAT-PROVIDER-TEST
   profiles: test #测试环境
 eureka:
   client:
