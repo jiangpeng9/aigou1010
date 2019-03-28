@@ -17,7 +17,7 @@ eureka:
     prefer-ip-address: true
 zuul:
   routes:
-    plat.serviceId: plat-service
+    plat.serviceId: plat-provider
     plat.path: /plat/**
   ignored-services: "*"
   prefix: "/aigou"
@@ -37,7 +37,7 @@ eureka:
     prefer-ip-address: true
 zuul:
   routes:
-    plat.serviceId: plat-service
+    plat.serviceId: plat-provider
     plat.path: /plat/**
   ignored-services: "*"
   prefix: "/aigou"
