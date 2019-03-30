@@ -22,6 +22,8 @@ zuul:
   routes:
     plat.serviceId: plat-provider
     plat.path: /plat/**
+    brand.serviceId: product-provider
+    brand.path: /product/**
 
 ---
 server:
@@ -42,4 +44,6 @@ zuul:
   ignored-services: "*"
   routes:
     plat.serviceId: plat-provider
-plat.path: /plat/**
+    plat.path: /plat/**
+    brand.serviceId: product-provider
+    brand.path: /product/**
