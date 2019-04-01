@@ -24,8 +24,8 @@ zuul:
     plat.path: /plat/**
     brand.serviceId: product-provider
     brand.path: /product/**
-    brand.serviceId: common-provider
-    brand.path: /common/**
+    common.serviceId: common-provider
+    common.path: /common/**
 
 ---
 server:
@@ -49,5 +49,5 @@ zuul:
     plat.path: /plat/**
     brand.serviceId: product-provider
     brand.path: /product/**
-    brand.serviceId: common-provider
-    brand.path: /common/**
+    common.serviceId: common-provider
+    common.path: /common/**
